@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './CarsList.css'
+import classes from './CarsList.css';
 
 const CarsList = (props) => {
     console.log(props.dataItem);
 
     return (
-        <div>
+        <div className={classes.CarsItem}>
             {props.dataItem.marque}
         </div>
     );
