@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import Cars from './pages/Cars/Cars';
+
 import './App.css';
 
 class App extends Component {
+  
   render() {
     return (
-     <div>Hello World</div>
-    );
+      <Cars></Cars>
+    )
   }
+
 }
 
 export default App;

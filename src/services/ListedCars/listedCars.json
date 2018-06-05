@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "marque": "Skoda",
+        "model": "Octovia",
+        "annee": 2016,
+        "kilometre": 94200,
+        "puissance": 150
+    },
+    {
+        "id": 2,
+        "marque": "Mercedes",
+        "model": "Classe A",
+        "annee": 2017,
+        "kilometre": 23000,
+        "puissance": 116
+    },
+    {
+        "id": 3,
+        "marque": "Porsche",
+        "model": "Boxter S",
+        "annee": 2015,
+        "kilometre": 35200,
+        "puissance": 290
+    },
+    {
+        "id": 4,
+        "marque": "Renault",
+        "model": "Scenic",
+        "annee": 2008,
+        "kilometre": 204200,
+        "puissance": 120
+    },
+    {
+        "id": 5,
+        "marque": "Toyata",
+        "model": "Rave 4",
+        "annee": 2010,
+        "kilometre": 134200,
+        "puissance": 110
+    }
+]
