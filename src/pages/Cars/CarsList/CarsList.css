@@ -1,15 +1,7 @@
-.CarsItem {
-    width: 250px;
-    padding: 16px;
-    text-align: center;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
-    margin: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-.CarsItem:hover,
-.CarsItem:active {
-    background-color: #C0DDF5;
+.CarsList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
 }

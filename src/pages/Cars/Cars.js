@@ -1,22 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
+// import classes from './Cars.css';
+
+import Aux from '../../components/hoc/Aux/Aux';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+import NewCar from './NewCars/NewCars';
 import CarsList from './CarsList/CarsList';
-import classes from './Cars.css'
-import dataObject from '../../services/ListedCars/listedCars.json'
-
-let data = dataObject;
 
 
-const Cars = (props) => {
+class Cars extends Component {
 
-    return (
-        <div className={classes.Cars}>
-            {data.map(el => {
-                return (
-                    <CarsList key={el.id} dataItem={el}/>
-                )
-            })}
-        </div>
-    )
+    
+
+    render() {
+        
+        return (
+            <Aux>
+                <Switch>
+                    <Route path='/list' component={CarsList} />
+                    <Route path='/new' component={NewCar} />
+                    <Redirect from='/' to='/list' />
+                </Switch>
+            </Aux>
+        )
+    }
 }
 
 export default Cars;
